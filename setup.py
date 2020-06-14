@@ -10,4 +10,13 @@ setup(
     description='Convert elevation data to STL file',
     author='Katie Jones',
     packages=['elevation_to_stl'],
+    install_requires=[
+        'SRTM.py',
+        'pyyaml',
+    ],
+    entry_points={
+        "console_scripts": [
+            "elevation-to-stl=elevation_to_stl.command_line:main_script",
+        ],
+    },
 )
