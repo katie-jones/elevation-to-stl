@@ -5,9 +5,9 @@
 from distutils.core import setup
 
 setup(
-    name='elevation-to-stl',
+    name='elevation_to_stl',
     version='alpha',
     description='Convert elevation data to STL file',
     author='Katie Jones',
-    packages=['elevation-to-stl'],
+    packages=['elevation_to_stl'],
 )
